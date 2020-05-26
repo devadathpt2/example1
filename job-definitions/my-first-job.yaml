@@ -1,0 +1,5 @@
+---
+- job : new job
+  Description : creating new job
+  String: Repository name
+  Pipeline script : ./pipeline-scripts/my-first-job.groovy

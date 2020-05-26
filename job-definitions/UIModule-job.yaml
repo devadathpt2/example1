@@ -1,0 +1,5 @@
+---
+job : new ui job
+description:
+  script:
+    git location: http://github.cou/
