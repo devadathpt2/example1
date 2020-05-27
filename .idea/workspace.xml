@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd268496-a2d7-41dd-957d-64579e127beb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shell-scripts/createJobs.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job-definitions/UIModule-job.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/job-definitions/UIModule-job.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/job-definitions/my-first-job.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/job-definitions/my-first-job.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeline-scripts/my-first-job.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline-scripts/my-first-job.groovy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,37 +18,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/job-definitions/my-first-job.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="135">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/job-definitions/UIModule-job.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pipeline-scripts/UIModule-job.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pipeline-scripts/my-first-job.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.createJobs.sh.swp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -58,9 +38,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pipeline-scripts/my-first-job.groovy" />
-        <option value="$PROJECT_DIR$/job-definitions/my-first-job.yaml" />
         <option value="$PROJECT_DIR$/pipeline-scripts/UIModule-job.groovy" />
         <option value="$PROJECT_DIR$/job-definitions/UIModule-job.yaml" />
+        <option value="$PROJECT_DIR$/job-definitions/my-first-job.yaml" />
+        <option value="$PROJECT_DIR$/shell-scripts/createJobs.groovy" />
       </list>
     </option>
   </component>
@@ -83,16 +64,6 @@
               <item name="example1" type="b2602c69:ProjectViewProjectNode" />
               <item name="example1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="example1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example1" type="462c0819:PsiDirectoryNode" />
-              <item name="job-definitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example1" type="462c0819:PsiDirectoryNode" />
-              <item name="pipeline-scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -101,7 +72,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590528892431" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590574655398" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -142,7 +113,7 @@
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3708381" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.55683124" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -162,17 +133,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pipeline-scripts/my-first-job.groovy">
+    <entry file="file://$PROJECT_DIR$/job-definitions/UIModule-job.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job-definitions/my-first-job.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="27" lean-forward="true" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -183,10 +147,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job-definitions/UIModule-job.yaml">
+    <entry file="file://$PROJECT_DIR$/pipeline-scripts/my-first-job.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell-scripts/createJobs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job-definitions/my-first-job.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>
