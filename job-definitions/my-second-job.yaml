@@ -1,7 +1,7 @@
 ---
 - job:
     project-type: pipeline
-    name: my-first-job
+    name: my-second-job
     node: master
     description: First job creation
     logrotate:
