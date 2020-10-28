@@ -1,4 +1,3 @@
----
 -job:
   name: UIModule-job.yaml
   node: master
