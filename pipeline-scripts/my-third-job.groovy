@@ -10,7 +10,7 @@ node()
             // log.info 'Starting'
 
             script {
-                helloSwapana()
+                helloSwaroopa()
             }
 
     }
