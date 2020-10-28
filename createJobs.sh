@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-for file in /job-definitions
+for file in ./job-definitions
 do
 
-sudo jenkins-jobs --conf /etc/jenkins_jobs/jenkins_jobs.ini update "$file"
+sudo -n jenkins-jobs --conf /etc/jenkins_jobs/jenkins_jobs.ini update "$file"
 
 done
 
