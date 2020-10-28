@@ -5,13 +5,13 @@ library 'Global-Common-libs'
 node()
 {
 
-    stages {
+
         stage('runGroovy') {
 
             // log.info 'Starting'
 
             helloWorld()
 
-        }
+
     }
 }
