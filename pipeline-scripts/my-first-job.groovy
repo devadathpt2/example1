@@ -10,7 +10,9 @@ node()
 
             // log.info 'Starting'
 
-            helloWorld()
+            script {
+                helloWorld()
+            }
 
 
     }
