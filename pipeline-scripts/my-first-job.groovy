@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@library('Global-Common-libs')
+library 'Global-Common-libs'
 
 
 node()
