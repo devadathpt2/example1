@@ -1,13 +1,17 @@
-library 'my-shared-library'
+#!/usr/bin/env groovy
+@library('Global-Common-libs')
 
 
+node()
+{
 
-node('master')
-stage ('Example') {
-    steps {
-        // log.info 'Starting'
-        script {
+    stages {
+        stage('runGroovy') {
+
+            // log.info 'Starting'
+
             helloWorld()
+
         }
     }
 }

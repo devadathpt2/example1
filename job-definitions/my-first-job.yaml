@@ -1,5 +1,6 @@
 ---
 - job:
+    project-type: pipeline
     name: my-first-job
     node: master
     description: First job creation
@@ -8,11 +9,14 @@
       artifactDaysToKeep: 1
     pipeline-scm:
       script-path: pipeline-scripts/my-first-job.groovy
-      parameters:
-        - choice:
-            name: Environment
-            choices:
-              - development
-              - Test
-              - Integration
-              - PreProd
+      scm:
+        - git:
+            branches:
+              - '*/master'
+            credentials-id: a405c65e-ffe7-43ba-819c-ac87243fa0e0
+            url: https://github.com/devadathpt2/example1.git
+            wipe-workspace: true
+      triggers:
+        - pollscm:
+            cron: '* * * * *'
+            ignore-post-commit-hooks: false
