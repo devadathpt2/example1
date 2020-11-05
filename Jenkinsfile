@@ -1,4 +1,5 @@
 pipeline {
+stages {
 stage('checkout'){
     steps{
         script{
@@ -6,4 +7,6 @@ stage('checkout'){
         }
     }
 }
+}
+
 }
