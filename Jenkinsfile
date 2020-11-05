@@ -4,7 +4,7 @@ stages {
 stage('checkout'){
     steps{
         script{
-            checkout
+            echo "hello"
         }
     }
 }
