@@ -1,5 +1,7 @@
-stage('Checkout code') {
-
-            checkout scm
-
+stage('checkout'){
+    steps{
+        script{
+            checkout
+        }
     }
+}
